@@ -1,0 +1,40 @@
+.location{
+    color: white;
+    padding-top: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  h2{
+    color: white;
+  }
+  
+  .para{
+    
+    font-family:'Courier New', Courier, monospace;
+    line-height: 40px ;
+  }
+  .para2{
+    color: white;
+    font-size: 15px;
+  }
+  .para1{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 35px ;
+    font-size: 15px;
+  }
+  .para2:hover{
+    cursor: pointer;
+    opacity: 50%;
+  }
+  .end2{
+    
+    font-family:'Courier New', Courier, monospace;
+    line-height: 54px;
+    color: white;
+  
+  }
+.end12{
+    margin-top: 35px;
+    background-color: rgb(53, 116, 118);
+  }

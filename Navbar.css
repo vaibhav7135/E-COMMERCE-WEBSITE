@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    height: 70px;
+    line-height: 4rem;
+    box-shadow: 0px 1px 1px rgb(188, 171, 171);
+    background-color: rgb(181, 181, 180);
+}
+
+ul {
+    margin-left: 15px;
+}
+
+#logo {
+    display: inline-block;
+    text-decoration: underline;
+    color: rgb(205, 8, 192);
+}
+
+ul li {
+    line-height: 1rem;
+    margin-left: 25px;
+    display: inline-block;
+    font-family: cursive;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+.cartic {
+    margin-left: 500px;
+    margin-top: 10px;
+    color: black;
+}
+
+.loginbtn {
+    margin-left: 25px;
+    margin-top: 10px;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.loginbtn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.signinbtn {
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.signinbtn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.searchbar {
+    margin-left: 10px;
+    width: 300px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    padding: 0 15px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 1rem; /* Text size */
+    outline: none; /* Removes the default focus outline */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth effects */
+  }
+  
+  .searchbar::placeholder {
+    color: #999; /* Placeholder text color */
+    font-style: italic;
+  }
+  
+  .searchbar:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Subtle glow */
+  }
+  
+  .searchbar:hover {
+    border-color: #007bff; /* Border color on hover */
+  }
