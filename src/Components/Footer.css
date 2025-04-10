@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+      display: inline-block;
+}
+
+.getstarted{
+    color: black;
+    height: 45px;
+    width: 140px;
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+
+}
+.getstarted:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.footer .getstarted{
+    position: absolute;
+      top: 95%; /* Center vertically */
+      left: 10%; /* Center horizontally */
+      transform: translate(-50%, -50%);
+      
+      font-size: 15px;
+  
+       
+}
+
+.imgontext{
+    position: absolute;
+      top: 50%; /* Center vertically */
+      left: 20%; /* Center horizontally */
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1 p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

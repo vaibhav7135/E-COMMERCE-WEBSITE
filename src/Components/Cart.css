@@ -1,0 +1,113 @@
+/* General styles for the Cart component */
+article {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cart item container */
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.3s;
+  }
+  
+  .cart_box:last-child {
+    border-bottom: none;
+  }
+  
+  .cart_box:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Image and title */
+  .cart-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-img img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cart-img p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Quantity controls */
+  .cart_box div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart_box button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cart_box button:hover {
+    background: #0056b3;
+  }
+  
+  .cart_box button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Price and remove button */
+  .cart_box span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart_box div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart_box div:last-child button {
+    background: #dc3545;
+  }
+  
+  .cart_box div:last-child button:hover {
+    background: #a71d2a;
+  }
+  
+  /* Total price section */
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart-total span:last-child {
+    color: #007bff;
+  }
+  
